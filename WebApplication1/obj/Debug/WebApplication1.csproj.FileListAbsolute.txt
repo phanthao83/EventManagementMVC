@@ -1,0 +1,193 @@
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\AutoMapper.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\EntityFramework.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Ninject.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Ninject.Extensions.Conventions.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Ninject.Web.Common.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Ninject.Web.Mvc.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Ninject.Web.WebApi.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Owin.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Http.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\WebActivatorEx.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\WebGrease.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\AutoMapper.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\EntityFramework.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Ninject.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Ninject.Extensions.Conventions.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Ninject.Web.Common.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Ninject.Web.Mvc.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Ninject.Web.WebApi.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Http.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.CreateGigTable.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.OverrideConventionForGigCreation.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.PopulateGenersTable.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.UpdateGigFK.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.UpdateGigFK2.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.resetGig.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.resetGig2.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.resetGig3.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.resetGig4.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.resetGig41.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.resetGig5.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.resetGig6.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.AddFullName.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.AddAttendance.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.AddFollowing.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.UpdateAttendace.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.UpdateGigCancellation.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.AddNotification.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.AddNotification2.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.Check.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.Dumpt.resources
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.GenerateResource.Cache
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\phant\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\AutoMapper.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\EntityFramework.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Google.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Ninject.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Ninject.Extensions.Conventions.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Ninject.Web.Common.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Ninject.Web.Mvc.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Ninject.Web.WebApi.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Owin.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.Http.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\WebActivatorEx.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\WebGrease.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\AutoMapper.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\EntityFramework.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Ninject.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Ninject.Extensions.Conventions.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Ninject.Web.Common.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Ninject.Web.Mvc.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Ninject.Web.WebApi.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.Http.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Google.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.CreateGigTable.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.OverrideConventionForGigCreation.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.PopulateGenersTable.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.UpdateGigFK.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.UpdateGigFK2.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.resetGig.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.resetGig2.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.resetGig3.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.resetGig4.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.resetGig41.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.resetGig5.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.resetGig6.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.AddFullName.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.AddAttendance.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.AddFollowing.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.UpdateAttendace.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.UpdateGigCancellation.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.AddNotification.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.AddNotification2.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.Check.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.Dumpt.resources
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.GenerateResource.cache
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\THAO\CODE\MyProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

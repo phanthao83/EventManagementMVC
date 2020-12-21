@@ -1,0 +1,80 @@
+﻿@model EventsManagementWeb.Core.ViewModels.HomeViewModel
+@{
+    ViewBag.Title = "Attending";
+}
+
+<h2>Attending</h2>
+
+<ul class="gigs">
+
+    @foreach (var gig in Model.UpcomingGig)
+    {
+        <li>
+            <div class="date">
+                <div class="month">@gig.DateTime.ToString("MMM")</div>
+                <div class="day">@gig.DateTime.ToString("d ")</div>
+                
+            </div>
+            <div class="detail">
+                <div class="Artist">
+                    @gig.Artist.FullName
+                @if (Model.IsAuthenticated)
+                {
+                    <button data-art-id="@gig.ArtistID" class="btn btn-link btn-sm js-toogle-follow">Follow?</button>
+                }
+            </div>
+            <div class="Gener">@gig.Genre.Name</div> 
+             @if (gig.IsCancelled)
+            {
+                <span  class=" btn btn-link btn-sm " >Cancelled</span>
+            }
+            @if (Model.IsAuthenticated)
+            {
+                <button data-gig-id="@gig.ID" class="btn btn-default btn-sm pull-left js-toogle-attendance"> Going?</button>
+
+            }
+        </div>
+    </li>
+    }
+</ul>
+
+@section scripts {
+
+    <script>
+        $(document).ready(function () {
+            $(".js-toogle-attendance").click(function (e) {
+                var button = $(e.target);
+                $.post("/api/attendances", { gidId: button.attr("data-gig-id") })
+                    .done(function () {
+                        button
+                            .removeClass("btn-default")
+                            .addClass("btn-info")
+                            .text("Going");
+
+                    })
+                    .fail(function () {
+                        alert("System Error roi do !")
+                    });
+            });
+
+            $(".js-toogle-follow").click(function (e) {
+
+                var button = $(e.target);
+                $.post("/api/follow", { followeeID: button.attr("data-art-id") })
+                    .done(function () {
+                        button
+                            .removeClass("btn-link")
+                            .addClass("btn-info")
+                            .text("Following");
+                    })
+                    .fail(function () {
+                        alert("Already Followed");
+                    });
+            });
+
+        });
+
+
+
+    </script>
+}

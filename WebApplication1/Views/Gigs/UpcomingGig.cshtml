@@ -1,0 +1,87 @@
+﻿@model IEnumerable <EventsManagementWeb.Core.Models.Gig> 
+@{
+    ViewBag.Title = "UpcomingGig";
+}
+
+<h2>My Upcoming Gigs </h2>
+
+<ul class="gigs">
+
+    @foreach (var gig in Model)
+    {
+           <li>
+                <div class="date">
+                    <div class="month">@gig.DateTime.ToString("MMM")</div>
+                    <div class="day">@gig.DateTime.ToString("d ")</div>
+                </div>
+                <div class="detail">
+                    <div class="Artist">  @gig.Venue  </div>
+                    <div class="Gener">@gig.Genre.Name</div>
+                    <div class="lactions">
+                     @if (gig.IsCancelled)
+                    {
+                            <span class="btn btn-link btn-sm"> Cancelled </span>
+                    }
+                    else {
+                            <a href="@Url.Action("Update", "Gigs", new {gigID = @gig.ID})">
+                                <i class="glyphicon glyphicon-pencil"></i>Edit</a> 
+                            <span style="width : 20px; "></span>
+                            <a href="#" class="js-toogle-delete" data-gig-id ="@gig.ID">
+                                <i class=" glyphicon glyphicon-remove">
+
+                                </i>Delete</a>
+
+                    }
+                    </div>
+                   
+                </div>
+            </li>
+      }
+</ul>
+
+@section scripts 
+{
+<script>
+    $(document).ready(function () {
+        $(".js-toogle-delete").click(function (e) {
+            var link = $(e.target);
+            bootbox.confirm("Are you sure to cancel the gig ? ", function () {
+
+                $.ajax({
+                    url: "/api/gigs/" + link.attr("data-gig-id"),
+                    method: "DELETE"
+                })
+                    .done(function () {
+                        link.parents("li").fadeOut(function () {
+                            $(this).remove();
+                        });
+                    })
+                    .fail(function () {
+                        alert("Something failed!");
+                    });
+                //Test thu : 
+                //Example.show("Confirm result: ");
+                /* 
+                $.post("/api/gigs", { gidID: link.attr("data-gig-id") })
+                .done(function () {
+                    link.parents("li").fadeOut(function () {
+                        $(this).remove();
+                    })
+
+                })
+                .fail(function () {
+                    alert("Issue when delete");
+                });
+                */
+            });
+                      
+        });
+
+
+    });
+
+</script>
+ 
+
+
+}

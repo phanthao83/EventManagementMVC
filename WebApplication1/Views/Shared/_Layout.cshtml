@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet"> 
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top"    >
+        <div class="container">
+            <div class="navbar-header ">
+             
+                @Html.ActionLink("Gib Hubs", "Index", "Home", null, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav " >
+                    <li >@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Add a gig", "Create", "Gigs")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+                
+            </div>
+        </div>
+      
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/app")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <script type="text/x-template" id="notifications-template">
+        <ul class="notifications" >
+            <%  _.each(notifications, function(notification){
+                if (notification.type == 2 ){ %>
+                    <li> <span class="highlighted"> <%= notification.gig.artist.fullName %> </span> has cancelled gig at <%= notification.gig.venue %> , <%= moment(notification.gig.datetime).format("D MMM HH:mm") %> </li>
+                <%} else if (notification.type == 1) { 
+                        var changes = [] , 
+                            orginal_value = [],
+                            new_value = []; 
+                        if (notification.orginalVenue != notification.gig.venue) {
+                            changes.push ('venue'); 
+                            orginal_value.push(notification.orginalVenue); 
+                            new_value.push(notification.gig.venue); 
+                        }
+                        if (notification.orginalDateTime != notification.gig.dateTime ) {
+                            changes.push ('date/time ');
+                            orginal_value.push(moment(notification.orginalDateTime).format("D MMM HH:mm"));
+                            new_value.push(moment (notification.gig.dateTime).format("D MMM HH:mm")); 
+                        }
+                 %> 
+                    <li><span class="highlighted"> <%= notification.gig.artist.fullName %> </span> has changed the <%= changes.join(' and ')%> from <%= orginal_value.join('/ ') %> to <%=  new_value.join('/ ')%> </li>
+
+                 <%      
+                }
+            }) %>
+        </ul>
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $.getJSON("/api/notification", function (notifications) {
+                if (notifications.length == 0) return; 
+                $(".js-notification-count").text(notifications.length)
+                    .removeClass("hide")
+                    .addClass("animated bounceInDown");
+               
+               var maxID = 0; 
+               
+                for (var i = 0; i < notifications.length ; i++) {
+                     if (maxID < notifications[i].id) maxID = notifications[i].id; 
+                }
+                $(".notification").popover({
+                    placement: "bottom",
+                    html: true,
+                    title: "Notifications ",
+                    content: function () {
+                        var complied = _.template($("#notifications-template").html());
+                        var html = complied({ notifications: notifications });
+                         // alert(html); 
+                          return html;
+                    },
+                    template: '<div class="popover" role="tooltip"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>'
+
+                }).on('show.bs.popover', function () {
+                    $.post("/api/notification/markReadNotification", { maxID: maxID })
+                        .done(function () {
+                            $(".js-notification-count").text("").addClass("hide"); 
+                        })
+                        .fail(function () {
+                        });
+                });
+
+            });
+
+        });
+        
+
+
+    </script>
+</body>
+</html>

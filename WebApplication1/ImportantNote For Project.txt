@@ -1,0 +1,48 @@
+﻿Cac link quan trong : 
+*** Enable Code First
+1. Enable-Migrations
+2. Add-Migration Test1
+3. Update-database
+
+**** Auto Mapper
+Install-Package AutoMapper -Verbose
+
+
+	
+*** Javascript 
+2. Cac message box : http://bootboxjs.com/license.txt
+4. Underscore.js la mot javascript lib that provide many functions for working with object on displaying .  (link : http://underscorejs.org/)
+5. De xu ly hien thi cho ngay thang nam thi dung javascript lib		Moment.js
+
+
+
+*** CSS 
+1. Bootstrap de lay cac class dung de add vao input / component : getbootstrap.com/components/ (Cac file cua bootstrap da duoc add san trong project )
+3. Cu dong mot object : https://daneden.github.io/animate.css/
+
+
+*** Utility 
+Structure file css bang LESS : Doi ten file bang abc.less .  Va dung website css2less.co de ho tro convert restructure lai file css qua file LESS . Dac biet , file LESS nay cho phep dac variable de dung chung . 
+
+requirejs.org
+
+Dependency Injection Framework 
+
+** how to install NinJec which is used to initiallize the controller with IUnitOfWork 
+install-package Ninject.Mvc5 -Version:3.2.1.0
+install-package Ninject.Web.WebApi -Version:3.2.1.0
+// IF you only install 2 package , you must define which interface is implemented by which obj. 
+install-package ninject.extensions.conventions 
+// The last package will support to configure binding using convention. 
+This way, Ninject will scan your absembly to find all interface and their implementation
+ and automatically bind them 
+
+
+ *** For Unit Test : 
+ install-package moq -version:4.2.1510.2205
+ // Moq for create moq object
+ install-package FluentAssertions -version:3.3.0
+  // Fluent Assertion for writting cleaner
+Install-Package Microsoft.AspNet.WebApi.Core
+// Package nay chua dll System.Web.Http
+** Unit Test is for test the behavior , not test the implementation. 

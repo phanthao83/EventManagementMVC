@@ -1,0 +1,73 @@
+﻿@model EventsManagementWeb.Core.ViewModels.HomeViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+<h1>@Model.Heading</h1>
+@using (Html.BeginForm("Search", "Gigs")) { 
+    <div class="form-group" style="position: relative">
+        <div id="searchGroup" class="input-group">
+            <span class="input-group-addon" id="basic-addon2"><i class="glyphicon  glyphicon-search"></i></span>
+           @Html.TextBoxFor(m => m.SearchTerm, new { @class = "form-control" })
+           
+        </div>
+        <div class="grpSearch">
+            <input type="submit" value="Search" />
+        </div>
+        
+    </div>
+    
+   
+}
+
+<ul id="gigs" class="gigs">
+
+    @foreach (var gig in Model.UpcomingGig ) 
+    {
+        <li>
+            <div class="date">
+                <div class="month">@gig.DateTime.ToString("MMM")</div>
+                <div class="day">@gig.DateTime.ToString("d ")</div>
+            </div>
+            <div class="detail">
+                <div class="Artist">
+                    <a href="@Url.Action("GigDetail", "Gigs", new {Id = @gig.ID})"  >@gig.Artist.FullName</a>
+                    
+                @if (Model.IsAuthenticated)
+                { 
+                   <button data-art-id = "@gig.ArtistID" class="btn @(Model.Following.Contains(gig.ArtistID) ? "btn-info" : "btn-link") btn-sm js-toogle-follow">
+                        @(Model.Following.Contains(gig.ArtistID) ? "Following" : "Follow?")
+                   </button>
+                }
+                 </div>
+                <div class="Gener">@gig.Genre.Name</div>
+                @if (gig.IsCancelled)
+                {
+                    <span class="btn btn-sm" style=" color : red" >Cancelled</span>
+                }
+                @if (Model.IsAuthenticated)
+                { 
+                    <button data-gig-id ="@gig.ID" 
+                            class="btn   @(Model.Attendances.Contains(gig.ID) ?  "btn-info":  "btn-default" )  btn-sm pull-left js-toogle-attendance"> 
+                        @(Model.Attendances.Contains(gig.ID) ? "Going" : "Going?")  </button>
+           
+                }
+             </div>
+        </li>
+    }
+</ul>
+
+@section scripts {
+    
+<script>
+    $(document).ready(function () {
+        
+        GigController.manageAttendance("#gigs");
+        DetailGigController.manageFollow("#gigs"); 
+
+    });
+
+    
+
+</script>
+
+}

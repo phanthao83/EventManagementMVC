@@ -1,0 +1,16 @@
+﻿
+@model  IEnumerable<EventsManagementWeb.Core.Models.ApplicationUser>
+
+@{
+    ViewBag.Title = "My Following";
+}
+
+<h2>My Following</h2>
+
+<ul>
+    @foreach (var art in Model)
+    {
+        <li> @art.FullName </li>
+    }
+
+</ul>

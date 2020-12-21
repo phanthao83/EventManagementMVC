@@ -1,0 +1,37 @@
+﻿
+@model EventsManagementWeb.Core.ViewModels.GigsViewFormModel
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>@Model.Heading</h2>
+@using (Html.BeginForm(Model.Action, "Gigs"))
+{ 
+    <p class="alert alert-info">All fields are <strong>required</strong> </p>
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor( m=> m.ID)
+     <div class="form-group"></div>
+        @Html.Label("Venue")
+        @Html.TextBoxFor(m => m.Venue, new { @class="form-control" , autofocus = "autofocus" })
+        @Html.ValidationMessageFor(m => m.Venue)
+
+    <div class="form-group">
+        @Html.LabelFor(m=>m.Date)
+        @Html.TextBoxFor(m => m.Date, new { @class="form-control", placeholder = "eg : 20 June 2016"})
+        @Html.ValidationMessageFor(m => m.Date)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m=>m.Time)
+        @Html.TextBoxFor(m => m.Time, new { @class="form-control", placeholder ="eg: 23:00"})
+        @Html.ValidationMessageFor(m => m.Time)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Gener)
+        @Html.DropDownListFor(m => m.Gener, new SelectList(Model.Geners, "Id", "Name"), "Select Gener", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Gener)
+    </div>
+    <button type="submit" value="Save" class="btn btn-primary">Save</button>
+}
+
+
+

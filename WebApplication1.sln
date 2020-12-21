@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsManagementWeb", "WebApplication1\EventsManagementWeb.csproj", "{AD3775D6-ABB6-4387-90D0-F801DB1609DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigUnitTestProject", "GigUnitTestProject\GigUnitTestProject.csproj", "{ACB6D4EA-1F3F-445B-A088-263CEFDFEB4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD3775D6-ABB6-4387-90D0-F801DB1609DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3775D6-ABB6-4387-90D0-F801DB1609DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3775D6-ABB6-4387-90D0-F801DB1609DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3775D6-ABB6-4387-90D0-F801DB1609DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB6D4EA-1F3F-445B-A088-263CEFDFEB4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB6D4EA-1F3F-445B-A088-263CEFDFEB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB6D4EA-1F3F-445B-A088-263CEFDFEB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB6D4EA-1F3F-445B-A088-263CEFDFEB4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6919DE63-1298-4423-92D7-C55A1D5EC971}
+	EndGlobalSection
+EndGlobal

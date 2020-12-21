@@ -1,0 +1,84 @@
+﻿@model EventsManagementWeb.Core.ViewModels.GigsViewFormModel
+
+
+@{
+    ViewBag.Title = "GigDetail";
+}
+
+<h2>Gig Detail </h2>
+
+<div class="Artist">
+    @Model.ArtistName
+
+</div>
+@if (Model.IsAuthenticated)
+{
+    <button data-art-id="model.ArtistID" class="btn btn-link btn-sm js-toogle-follow">
+        @(Model.IsFollowing ? "Following" : "Follow?")
+    </button>
+
+}
+
+
+
+<div class="Gener"> @Model.GenreName</div>
+<div> @Model.Venue</div>
+
+<div> Date :  @Model.GetDateTime() </div>
+<div> Comments  </div>
+<span>
+    @if (Model.GigReview != null)
+    {
+        foreach (var review in Model.GigReview)
+        {
+            <i>
+                @review.Comment
+
+            </i>
+        }
+    }
+</span>
+
+@if (Model.IsAuthenticated)
+{
+    using (Html.BeginForm("Comment", "Gigs"))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m => m.ID)
+        <div class="input-group">
+            <div class="input-group-prepend">  <span class="input-group-text">Add Comment</span>      </div>
+            @Html.TextAreaFor(m => m.NewComment, new { @class = "form-control" })
+
+        </div>
+        <input type="submit" value="Comment" />
+    }
+}
+
+
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $(".js-toogle-follow").click(function (e) {
+
+                var button = $(e.target);
+                $.post("/api/follow", { followeeID: button.attr("data-art-id") })
+                    .done(function () {
+                        button
+                            .removeClass("btn-link")
+                            .addClass("btn-info")
+                            .text("Following");
+                    })
+                    .fail(function () {
+                        alert("Already Followed");
+                    });
+            });
+
+        });
+
+
+
+    </script>
+
+}

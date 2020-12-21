@@ -1,0 +1,206 @@
+﻿body {
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/** Thao override bootstrap */
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('fonts/glyphicons-halflings-regular.eot');
+    src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+.form-group {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.field-validation-error {
+    font-weight: bold;
+}
+
+.navbar-inverse {
+    background-color: #ff4343;
+    border-color: #ff4342;
+}
+.navbar-nav {
+   flex-direction : row; 
+}
+
+
+.navbar-brand:focus {
+    color: #0026ff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #080b3f;
+}
+
+.navbar-inverse .notification {
+    position: relative;
+    top: 0px;
+    right: 5px;
+}
+
+    .navbar-inverse .notification .badge {
+        position: absolute;
+        top: 8px;
+        right: -1px;
+        background-color: #FF4340;
+    }
+
+.gigs {
+    list-style: none;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+    .gigs > li {
+        position: relative;
+        padding-bottom: 30px;
+    }
+
+        .gigs > li .detail {
+            position: absolute;
+            left: 70px;
+            top: 0px;
+            text-align: center;
+            color: #000000;
+            border: 5px red;
+        }
+
+            .gigs > li .detail .Artist {
+                font-weight: bold;
+                display: block;
+                align-content: flex-end;
+                font-size: 20px;
+            }
+
+            .gigs > li .detail .Gener {
+                font-size: 15px;
+                text-align: left;
+            }
+
+            .gigs > li .detail .Going {
+                display: block;
+            }
+
+        .gigs > li .date {
+            color: white;
+            background: #ff0000;
+            text-align: center;
+            width: 60px;
+            -ms-border-radius: 8px;
+            border-radius: 8px;
+        }
+
+            .gigs > li .date .month {
+                text-transform: uppercase;
+                font-size: 14px;
+                font-weight: bold;
+                padding: 6px 3px;
+            }
+
+            .gigs > li .date .day {
+                font-size: 20px;
+                padding: 6px 12px;
+                background: #808080;
+                color: #080b3f;
+                font-weight: bold;
+            }
+
+        .gigs > li .lactions {
+            font-size: 15px;
+            display: block;
+            text-align: left;
+        }
+
+.gig > li:hover .lactions {
+    display: block;
+    color: black;
+}
+
+.popover {
+    box-shadow: 0px 0px 0px 0px;
+    webkit-box-shadow: 0px 0px 0px 0px;
+}
+
+.popover-content {
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+ul.notifications {
+    list-style: none;
+    padding-left: 0px;
+}
+
+    ul.notifications > li {
+        border-bottom: 1px #808080 solid;
+        padding-top: 5px;
+        padding-bottom: 3px;
+    }
+
+        ul.notifications > li .highlighted {
+            font-weight: 900;
+        }
+
+        ul.notifications > li:last-child {
+            border-bottom: none;
+        }
+
+#searchGroup {
+    width: 300px;
+}
+
+.grpSearch {
+    position: absolute;
+    left: 310px;
+    top: 5px;
+}
+
+.input-group > .input-group-prepend > .textarea {
+    max-width: 500px !important;
+}
